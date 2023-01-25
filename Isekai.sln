@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isekai", "Isekai.vcxproj", "{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Debug|x64.ActiveCfg = Debug|x64
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Debug|x64.Build.0 = Debug|x64
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Debug|x86.Build.0 = Debug|Win32
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x64.ActiveCfg = Release|x64
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x64.Build.0 = Release|x64
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x86.ActiveCfg = Release|Win32
+		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3085DDC-0DFA-4F75-8B25-59E3C29C6017}
+	EndGlobalSection
+EndGlobal

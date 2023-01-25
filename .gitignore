@@ -25,8 +25,12 @@
 *.la
 *.a
 *.lib
+!glfw3.lib
 
 # Executables
 *.exe
 *.out
 *.app
+/Dependencies/glfw/extra
+/x64/Debug
+/.vs
