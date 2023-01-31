@@ -14,19 +14,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\main.cpp">
+    <ClCompile Include="Source\Isekai.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Source\glad.c">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Core\Engine.cpp">
-      <Filter>Source\Core</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Source\Core\Engine.h">
-      <Filter>Source\Core</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

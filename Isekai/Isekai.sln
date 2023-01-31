@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isekai", "Isekai.vcxproj", "{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE3A04F5-7F33-4C67-849C-19B66E256751} = {AE3A04F5-7F33-4C67-849C-19B66E256751}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Engine.vcxproj", "{AE3A04F5-7F33-4C67-849C-19B66E256751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x64.Build.0 = Release|x64
 		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x86.ActiveCfg = Release|Win32
 		{4DFE7CB6-7B86-4A55-A4E4-72E55E7984FA}.Release|x86.Build.0 = Release|Win32
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Debug|x64.ActiveCfg = Debug|x64
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Debug|x64.Build.0 = Debug|x64
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Debug|x86.Build.0 = Debug|Win32
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Release|x64.ActiveCfg = Release|x64
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Release|x64.Build.0 = Release|x64
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Release|x86.ActiveCfg = Release|Win32
+		{AE3A04F5-7F33-4C67-849C-19B66E256751}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

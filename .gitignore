@@ -31,6 +31,10 @@
 *.exe
 *.out
 *.app
-/Dependencies/glfw/extra
-/x64/Debug
+/Engine/Dependencies/glfw/extra
+/Engine/x64/Debug
+/Engine/.vs
+/Isekai/x64/Debug
+/Isekai/.vs
+
 /.vs
