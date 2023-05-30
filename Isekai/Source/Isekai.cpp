@@ -1,8 +1,24 @@
 #include "Core/Engine.h"
 
+
+class Isekai : public Hunter::Engine
+{
+public:
+    Isekai()
+    {
+
+    }
+
+    ~Isekai()
+    {
+
+    }
+};
+
+
 int main()
 {
-    std::unique_ptr<Hunter::Engine> App = std::make_unique<Hunter::Engine>();
+    std::unique_ptr<Isekai> App = std::make_unique<Isekai>();
 
     if (App->Init())
     {
