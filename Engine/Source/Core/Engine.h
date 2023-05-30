@@ -5,6 +5,8 @@
 
 namespace Hunter
 {
+	//we use microsoft specific __declspec(dllexport) to export all the functions inside of this class so that they are visible outside this DLL. 
+	//In doing so a .lib file is generated and these exports are stored in that .lib file so that other projects can use it so that these functions are then consumable in those projects/solutions.
 	class __declspec(dllexport) Engine
 	{
 	public:
